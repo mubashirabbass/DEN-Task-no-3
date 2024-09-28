@@ -11,7 +11,7 @@ I will use jupyter notebook for that :
 •	from sklearn.datasets import load_iris
 
 # Step 2: Load the dataset
-# The dataset is available in sklearn, but you can load from a CSV if preferred
+# The dataset is available in sklearn, but we can load from a CSV if preferred
 iris = load_iris()
 iris_data = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 iris_data['species'] = iris.target
